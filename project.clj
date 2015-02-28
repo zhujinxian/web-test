@@ -4,7 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [road "0.1.0-SNAPSHOT"]]
+                 [road "0.2.0-SNAPSHOT"]
+                 [ring "1.3.2"]]
   :plugins [[zhu/leiningen-war "0.0.1"]]
   :war {:webxml "web.xml"}
   :uberwar {:webxml "web.xml"}
